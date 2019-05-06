@@ -74,7 +74,6 @@ describe('Round', function () {
     const card3 = new Card(3, 'What is Travis\'s middle name?', ['Lex', 'William', 'Fitzgerald'], 'Fitzgerald');
     const deck = new Deck([card1, card2, card3]);
     const round = new Round(deck);
-    const turn = new Turn(card1, 'sea otter');
 
     round.takeTurn('pug')
     round.takeTurn('gallbladder')
@@ -88,7 +87,6 @@ describe('Round', function () {
     const card3 = new Card(3, 'What is Travis\'s middle name?', ['Lex', 'William', 'Fitzgerald'], 'Fitzgerald');
     const deck = new Deck([card1, card2, card3]);
     const round = new Round(deck);
-    const turn = new Turn(card1, 'sea otter');
 
     round.takeTurn('pug')
     round.takeTurn('gallbladder')
