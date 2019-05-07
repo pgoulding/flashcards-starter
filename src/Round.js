@@ -21,7 +21,7 @@ class Round {
   }
   endRound() {
     console.log(`** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`)
-    console.log(`${this.calculatePercentCorrect() > 90 ? 'Congratulations, you passed!' : 'You suck, try harder'}`);
+    console.log(`${this.calculatePercentCorrect() > 90 ? 'Congratulations, you passed!' : 'Sorry, you need at least 90% to pass...'}`);
   }
 }
 
